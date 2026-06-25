@@ -1,0 +1,6 @@
+[submodule "transponder"]
+	path = transponder
+	url = git@github.com:zsellera/openstint-transponder.git
+[submodule "decoder"]
+	path = decoder
+	url = git@github.com:zsellera/openstint.git
