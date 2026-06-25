@@ -35,14 +35,12 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: website/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: website
         run: npm ci
 
       - name: Build website
-        working-directory: website
         run: npm run docs:build
 
       - name: Configure AWS credentials
@@ -54,8 +52,7 @@ jobs:
 
       - name: Sync to S3
         run: |
-          aws s3 sync website/.vitepress/dist "s3://${S3_BUCKET}" \
-            --delete
+          aws s3 sync .vitepress/dist "s3://${S3_BUCKET}" --delete
 
       - name: Invalidate CloudFront
         run: |
