@@ -73,6 +73,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zsellera/openstint' }
-    ]
+    ],
+
+    footer: {
+      message: '<a href="https://www.rctech.net/forum/radio-electronics/1137693-openstint-laptiming-decoder.html">Support forum</a> | ' +
+               '<a href="https://github.com/zsellera/openstint-transponder">Transponder</a> | ' +
+               '<a href="https://github.com/zsellera/openstint-preamp">Preamplifier</a>'
+    }
   }
 })
