@@ -36,7 +36,8 @@ export default defineConfig({
           { text: 'Supported SDRs', link: '/decoder/docs/supported-hardware' },
           { text: 'Loop (the antenna)', link: '/decoder/docs/setup-tutorial' },
           { text: 'OpenStint on Windows', link: '/decoder/docs/setup-tutorial-windows' },
-          { text: 'OpenStint on Raspberry Pi', link: '/decoder/docs/setup-tutorial-raspberry' }
+          { text: 'OpenStint on Raspberry Pi', link: '/decoder/docs/setup-tutorial-raspberry' },
+          { text: 'Transponder firmware', link: '/transponder/docs/transponder-flashing' }
         ]
       },
       {
