@@ -45,6 +45,7 @@ export default defineConfig({
         items: [
           { text: 'LapBeeps', link: '/decoder/docs/scoring-lapbeeps' },
           { text: 'RCGTiming', link: '/decoder/docs/scoring-rcgtiming' },
+          { text: 'TrackTiming', link: '/decoder/docs/scoring-tracktiming' },
           { text: 'ZRound', link: '/decoder/docs/scoring-zround' }
         ]
       },
