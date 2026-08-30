@@ -23,7 +23,7 @@ hero:
 features:
   - icon: 🎉
     title: Multi-protocol support
-    details: Natively decodes the OpenStint transponder, plus RC3, RC4Hybrid, MRT and other RC3-clones.
+    details: Natively decodes the OpenStint transponder, plus RC3, RC4Hybrid, RC3-clones (MRT, Waldo) and Vostok transponders.
   - icon: 🔧
     title: Off-the-shelf hardware
     details: No soldering or electronics skills required — works with HackRF One and RTL-SDR v3 & v4.
