@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: "OpenStint: DIY RC Lap Timing Decoder (RTL-SDR / HackRF)"
+titleTemplate: false
+description: "Open-source DIY RC lap timing system that reads near-field AMB/RC3/RC4 and OpenStint transponders using an inexpensive RTL-SDR or HackRF radio."
 
 hero:
   name: "OpenStint"
