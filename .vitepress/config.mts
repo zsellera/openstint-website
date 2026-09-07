@@ -9,6 +9,15 @@ export default defineConfig({
   lang: 'en-US',
   title: "OpenStint",
   description: "OpenStint is an open-source project reading AMB/RC3/RC4-style near-field transponders using inexpensive SDR (HackRF or RTL-SDR) radios.",
+  sitemap: {
+    hostname: 'https://openstint.org',
+  },
+  transformHead({ page }) {
+    const path = page === 'index.md' ? '' : page.replace(/\.md$/, '.html')
+    return [
+      ['link', { rel: 'canonical', href: `https://openstint.org/${path}` }],
+    ]
+  },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' }],
