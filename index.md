@@ -3,12 +3,12 @@
 layout: home
 title: "Open-Source RC Lap Timing System for Clubs and DIY Tracks | OpenStint"
 titleTemplate: false
-description: "Build a complete RC lap timing system for about $65 from an RTL-SDR, a wire loop and free software. Works with OpenStint, RC3, RC4 Hybrid, MRT and Vostok transponders."
+description: "Build a complete RC lap timing system for about $65 from an RTL-SDR, a wire loop and free software. Works with OpenStint, RC3, RC4, MRT and Vostok transponders."
 
 hero:
   name: "Open-Source RC Lap Timing System"
   text: "for Clubs and DIY Tracks"
-  tagline: "Build a complete RC lap timing system from an RTL-SDR, a wire loop, and free software. Compatible with OpenStint, RC3, RC4 Hybrid, MRT and other transponders."
+  tagline: "Build a complete RC lap timing system from an RTL-SDR, a wire loop, and free software. Compatible with OpenStint, RC3, RC4, MRT and other transponders."
   image:
     src: /openstint-loop.jpg
     alt: OpenStint timing loop installed across the start/finish line of an outdoor RC track
